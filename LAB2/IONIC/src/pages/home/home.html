@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Text classifier
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-input placeholder="Text Input" [(ngModel)]="searchText" ></ion-input>
+  </ion-item>
+  <button ion-button (click)="clickButton()" >Click</button>
+  <ion-input [(ngModel)]="outputText" ></ion-input>
+</ion-content>
